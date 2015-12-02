@@ -10,8 +10,6 @@ class Configuration implements ConfigurationInterface
     /** {@inheritdoc} */
     public function getConfigTreeBuilder()
     {
-        //
-
         $treeBuilder = new TreeBuilder();
         $treeBuilder->root('symfony_form_generator');
 
