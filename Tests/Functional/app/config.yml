@@ -1,3 +1,4 @@
 framework:
     test: ~
+    form: ~
     secret: ThisTokenIsNotSoSecretChangeIt
