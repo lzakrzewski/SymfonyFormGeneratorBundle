@@ -2,6 +2,7 @@
 
 namespace Lucaszz\SymfonyFormGeneratorBundle\Tests\Functional\app;
 
+use Lucaszz\SymfonyFormGeneratorBundle\SymfonyFormGeneratorBundle;
 use Symfony\Bundle\FrameworkBundle\FrameworkBundle;
 use Symfony\Component\Config\Loader\LoaderInterface;
 use Symfony\Component\HttpKernel\Kernel;
@@ -13,6 +14,7 @@ class TestKernel extends Kernel
     {
         return [
             new FrameworkBundle(),
+            new SymfonyFormGeneratorBundle(),
         ];
     }
 

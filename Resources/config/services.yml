@@ -1,1 +1,12 @@
 services:
+    form_generator.extension:
+        class: Lucaszz\SymfonyFormGenerator\Form\Extension\Core\FormGeneratorExtension
+
+    form_generator.property_names_reader:
+        class: Lucaszz\SymfonyFormGenerator\Reader\PropertyNamesReader
+
+    form_generator:
+        class: Lucaszz\SymfonyFormGenerator\Generator
+        arguments:
+            - "@form.factory"
+            - "@form_generator.property_names_reader"

@@ -2,13 +2,16 @@
 
 namespace Lucaszz\SymfonyFormGeneratorBundle\Tests\Functional;
 
-use Symfony\Component\Form\FormFactory;
+use Lucaszz\SymfonyFormGeneratorBundle\Tests\fixtures\ObjectWithoutMetadata;
+use Symfony\Component\Form\FormInterface;
 
 class GeneratorTest extends FunctionalTestCase
 {
     /** @test */
-    public function ensure_that_form_factory_exists()
+    public function it_generates()
     {
-        $this->assertInstanceOf(FormFactory::class, $this->container->get('form.factory'));
+        $form = $this->container->get('form_generator')->generate(ObjectWithoutMetadata::class)->getForm();
+
+        $this->assertInstanceOf(FormInterface::class, $form);
     }
 }
