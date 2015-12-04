@@ -2,3 +2,7 @@ framework:
     test: ~
     form: ~
     secret: ThisTokenIsNotSoSecretChangeIt
+
+symfony_form_generator:
+    variable_type_mappings:
+        - { variable_type: Lucaszz\SymfonyFormGeneratorBundle\Tests\fixtures\CustomValueObject, form_type: custom_value_object }
