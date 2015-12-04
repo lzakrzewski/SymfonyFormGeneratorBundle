@@ -1,6 +1,13 @@
 services:
+    form_generator.variable_type_mapper:
+        class: Lucaszz\SymfonyFormGenerator\Form\Guesser\Mapper\VariableTypeToFormTypeMapper
+        calls:
+            - [applyDefaultMappings]
+
     form_generator.extension:
         class: Lucaszz\SymfonyFormGenerator\Form\Extension\Core\FormGeneratorExtension
+        arguments:
+            - "@form_generator.variable_type_mapper"
 
     form_generator.property_names_reader:
         class: Lucaszz\SymfonyFormGenerator\Reader\PropertyNamesReader

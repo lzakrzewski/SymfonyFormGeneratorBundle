@@ -7,10 +7,6 @@ use Ramsey\Uuid\UuidInterface;
 
 class ObjectWithPhpDocMetadataOnProperties
 {
-    /** @var int */
-    public $propertyInteger;
-    /** @var string */
-    public $propertyString;
     /** @var \DateTime */
     public $propertyDateTime;
     /** @var UuidInterface */
@@ -18,10 +14,8 @@ class ObjectWithPhpDocMetadataOnProperties
     /** @var Money */
     public $propertyMoney;
 
-    public function __construct($propertyInteger, $propertyString, $propertyDateTime, $propertyUuid, $propertyMoney)
+    public function __construct($propertyDateTime, $propertyUuid, $propertyMoney)
     {
-        $this->propertyInteger  = $propertyInteger;
-        $this->propertyString   = $propertyString;
         $this->propertyDateTime = $propertyDateTime;
         $this->propertyUuid     = $propertyUuid;
         $this->propertyMoney    = $propertyMoney;

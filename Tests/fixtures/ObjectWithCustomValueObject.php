@@ -2,12 +2,13 @@
 
 namespace Lucaszz\SymfonyFormGeneratorBundle\Tests\fixtures;
 
-class ObjectWithoutMetadata
+class ObjectWithCustomValueObject
 {
+    /** @var CustomValueObject */
     public $property;
 
     public function __construct($property)
     {
-        $this->property = $property;
+        $this->property  = $property;
     }
 }
