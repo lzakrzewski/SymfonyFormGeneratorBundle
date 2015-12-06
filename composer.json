@@ -20,5 +20,6 @@
         "psr-4": {
             "Lucaszz\\SymfonyFormGeneratorBundle\\": ""
         }
-    }
+    },
+    "minimum-stability": "dev"
 }
