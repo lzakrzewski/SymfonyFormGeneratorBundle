@@ -4,8 +4,8 @@ framework:
     secret: ThisTokenIsNotSoSecretChangeIt
 
 symfony_form_generator:
-    variable_type_mappings:
-        - { variable_type: Lucaszz\SymfonyFormGeneratorBundle\Tests\fixtures\CustomValueObject, form_type: custom_value_object }
+    property_type_mappings:
+        - { property_type: Lucaszz\SymfonyFormGeneratorBundle\Tests\fixtures\CustomValueObject, form_type: custom_value_object }
 
 services:
     form_generator.tests.form.type.custom_value_object:

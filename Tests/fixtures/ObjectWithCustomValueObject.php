@@ -9,6 +9,6 @@ class ObjectWithCustomValueObject
 
     public function __construct($property)
     {
-        $this->property  = $property;
+        $this->property = $property;
     }
 }

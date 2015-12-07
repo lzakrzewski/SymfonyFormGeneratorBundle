@@ -15,10 +15,10 @@ class Configuration implements ConfigurationInterface
 
         $rootNode
             ->children()
-                ->arrayNode('variable_type_mappings')
+                ->arrayNode('property_type_mappings')
                     ->prototype('array')
                         ->children()
-                            ->scalarNode('variable_type')->end()
+                            ->scalarNode('property_type')->end()
                             ->scalarNode('form_type')->end()
                         ->end()
                     ->end()

@@ -15,7 +15,7 @@ class SymfonyFormGeneratorExtension extends Extension
         $configuration = new Configuration();
         $config        = $this->processConfiguration($configuration, $configs);
 
-        $container->setParameter('symfony_form_generator.variable_type_mappings', $config['variable_type_mappings']);
+        $container->setParameter('symfony_form_generator.property_type_mappings', $config['property_type_mappings']);
 
         $loader = new YamlFileLoader($container, new FileLocator(__DIR__.'/../Resources/config'));
         $loader->load('services.yml');
