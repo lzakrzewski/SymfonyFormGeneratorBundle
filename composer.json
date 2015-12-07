@@ -10,7 +10,7 @@
     ],
     "require": {
         "php": ">=5.5",
-        "symfony/framework-bundle": "~2.3",
+        "symfony/framework-bundle": "~2.6",
         "lucaszz/symfony-form-generator": "dev-master"
     },
     "require-dev": {
