@@ -1,4 +1,4 @@
-# Symfony Form Generator Bundle [![Build Status](https://travis-ci.org/Lucaszz/SymfonyFormGeneratorBundle.svg?branch=master)](https://travis-ci.org/Lucaszz/SymfonyFormGeneratorBundle)
+# Symfony Form Generator Bundle [![Build Status](https://travis-ci.org/Lucaszz/SymfonyFormGeneratorBundle.svg?branch=master)](https://travis-ci.org/Lucaszz/SymfonyFormGeneratorBundle) [![Coverage Status](https://coveralls.io/repos/Lucaszz/SymfonyFormGeneratorBundle/badge.svg?branch=master&service=github)](https://coveralls.io/github/Lucaszz/SymfonyFormGeneratorBundle?branch=master)
 
 This bundle integrates library [SymfonyFormGenerator](https://github.com/Lucaszz/SymfonyFormGenerator) with symfony framework.
 
@@ -78,7 +78,7 @@ Topics:
 - [Usage](Resources/doc/usage.md)
 - [Custom mapping](Resources/doc/custom_mapping.md)
 
-## Related `SymfonyFormGenerator` documentation
+## Related SymfonyFormGenerator documentation
 
 - [Supported value objects](https://github.com/Lucaszz/SymfonyFormGenerator/blob/master/doc/value_objects.md)
 - [Guess priorities](https://github.com/Lucaszz/SymfonyFormGenerator/blob/master/doc/guess_priorities.md)
