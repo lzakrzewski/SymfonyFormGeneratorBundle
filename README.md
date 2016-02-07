@@ -1,13 +1,13 @@
-# Symfony Form Generator Bundle [![Build Status](https://travis-ci.org/Lucaszz/SymfonyFormGeneratorBundle.svg?branch=master)](https://travis-ci.org/Lucaszz/SymfonyFormGeneratorBundle) [![Coverage Status](https://coveralls.io/repos/Lucaszz/SymfonyFormGeneratorBundle/badge.svg?branch=master&service=github)](https://coveralls.io/github/Lucaszz/SymfonyFormGeneratorBundle?branch=master)
+# Symfony Form Generator Bundle [![Build Status](https://travis-ci.org/lzakrzewski/SymfonyFormGeneratorBundle.svg?branch=master)](https://travis-ci.org/lzakrzewski/SymfonyFormGeneratorBundle) [![Coverage Status](https://coveralls.io/repos/github/lzakrzewski/SymfonyFormGeneratorBundle/badge.svg?branch=master)](https://coveralls.io/github/lzakrzewski/SymfonyFormGeneratorBundle?branch=master)
 
-This bundle integrates library [SymfonyFormGenerator](https://github.com/Lucaszz/SymfonyFormGenerator) with symfony framework.
+This bundle integrates library [SymfonyFormGenerator](https://github.com/lzakrzewski/SymfonyFormGenerator) with symfony framework.
 
 ## Example
 
 Object of given class:
 
 ```php
-use Lucaszz\SymfonyFormGenerator\Annotation\Form;
+use Lzakrzewski\SymfonyFormGenerator\Annotation\Form;
 use Symfony\Component\Validator\Constraints as Assert;
 
 class ObjectWithMixedMetadata
@@ -52,8 +52,8 @@ after:
 will have `form` equivalent:
 
 ```php
-use Lucaszz\SymfonyFormGenerator\Form\Type\GeneratorFormType;
-use Lucaszz\SymfonyFormGenerator\ObjectWithMixedMetadata;
+use Lzakrzewski\SymfonyFormGenerator\Form\Type\GeneratorFormType;
+use Lzakrzewski\SymfonyFormGenerator\ObjectWithMixedMetadata;
 use Symfony\Component\Form\Forms;
 
 Forms::createFormFactory()->createBuilder()
@@ -80,9 +80,9 @@ Topics:
 
 ## Related SymfonyFormGenerator documentation
 
-- [Supported value objects](https://github.com/Lucaszz/SymfonyFormGenerator/blob/master/doc/value_objects.md)
-- [Guess priorities](https://github.com/Lucaszz/SymfonyFormGenerator/blob/master/doc/guess_priorities.md)
-- [Form annotation guess](https://github.com/Lucaszz/SymfonyFormGenerator/blob/master/doc/form_annotation_guess.md)
-- [PHPDoc comment guess](https://github.com/Lucaszz/SymfonyFormGenerator/blob/master/doc/phpdoc_comment_guess.md)
-- [Validator guess](https://github.com/Lucaszz/SymfonyFormGenerator/blob/master/doc/validator_guess.md)
-- [Type hint guess](https://github.com/Lucaszz/SymfonyFormGenerator/blob/master/doc/type_hint_guess.md)
+- [Supported value objects](https://github.com/Lzakrzewski/SymfonyFormGenerator/blob/master/doc/value_objects.md)
+- [Guess priorities](https://github.com/Lzakrzewski/SymfonyFormGenerator/blob/master/doc/guess_priorities.md)
+- [Form annotation guess](https://github.com/Lzakrzewski/SymfonyFormGenerator/blob/master/doc/form_annotation_guess.md)
+- [PHPDoc comment guess](https://github.com/Lzakrzewski/SymfonyFormGenerator/blob/master/doc/phpdoc_comment_guess.md)
+- [Validator guess](https://github.com/Lzakrzewski/SymfonyFormGenerator/blob/master/doc/validator_guess.md)
+- [Type hint guess](https://github.com/Lzakrzewski/SymfonyFormGenerator/blob/master/doc/type_hint_guess.md)

@@ -1,8 +1,8 @@
 <?php
 
-namespace Lucaszz\SymfonyFormGeneratorBundle\Tests\Functional;
+namespace Lzakrzewski\SymfonyFormGeneratorBundle\Tests\Functional;
 
-use Lucaszz\SymfonyFormGeneratorBundle\Tests\Functional\app\TestKernel;
+use Lzakrzewski\SymfonyFormGeneratorBundle\Tests\Functional\app\TestKernel;
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 

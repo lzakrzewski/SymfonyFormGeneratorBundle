@@ -5,13 +5,13 @@
     "require": {
         "php": ">=5.5",
         "symfony/framework-bundle": "~2.6",
-        "lucaszz/symfony-form-generator": "0.0.*"
+        "lzakrzewski/symfony-form-generator": "0.0.*"
     },
 ```
 
 ## Require with composer
 ```bash
-composer require lucaszz/symfony-form-generator-bundle
+composer require lzakrzewski/symfony-form-generator-bundle
 ```
 
 ## Enable the SymfonyFormGeneratorBundle
@@ -21,7 +21,7 @@ public function registerBundles()
 {
     $bundles = array(
         // ...
-        new \Lucaszz\SymfonyFormGeneratorBundle\SymfonyFormGeneratorBundle(),
+        new \Lzakrzewski\SymfonyFormGeneratorBundle\SymfonyFormGeneratorBundle(),
         // ...
     );
 }

@@ -1,8 +1,8 @@
 <?php
 
-namespace Lucaszz\SymfonyFormGeneratorBundle\Tests\Form;
+namespace Lzakrzewski\SymfonyFormGeneratorBundle\Tests\Form;
 
-use Lucaszz\SymfonyFormGeneratorBundle\Tests\fixtures\CustomValueObject;
+use Lzakrzewski\SymfonyFormGeneratorBundle\Tests\fixtures\CustomValueObject;
 use Symfony\Component\Form\DataTransformerInterface;
 use Symfony\Component\Form\Exception\TransformationFailedException;
 

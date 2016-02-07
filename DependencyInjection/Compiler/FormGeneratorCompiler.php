@@ -1,6 +1,6 @@
 <?php
 
-namespace Lucaszz\SymfonyFormGeneratorBundle\DependencyInjection\Compiler;
+namespace Lzakrzewski\SymfonyFormGeneratorBundle\DependencyInjection\Compiler;
 
 use Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface;
 use Symfony\Component\DependencyInjection\ContainerBuilder;

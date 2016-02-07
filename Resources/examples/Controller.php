@@ -1,8 +1,8 @@
 <?php
 
-namespace Lucaszz\SymfonyFormGeneratorBundle;
+namespace Lzakrzewski\SymfonyFormGeneratorBundle;
 
-use Lucaszz\SymfonyFormGenerator\ObjectWithMixedMetadata;
+use Lzakrzewski\SymfonyFormGenerator\ObjectWithMixedMetadata;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller as BaseController;
 
 class Controller extends BaseController

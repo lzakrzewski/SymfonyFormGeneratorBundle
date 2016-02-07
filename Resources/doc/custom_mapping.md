@@ -20,5 +20,5 @@
 ```yaml
 symfony_form_generator:
     property_type_mappings:
-        - { property_type: Lucaszz\SymfonyFormGeneratorBundle\Tests\fixtures\CustomValueObject, form_type: custom_value_object }
+        - { property_type: Lzakrzewski\SymfonyFormGeneratorBundle\Tests\fixtures\CustomValueObject, form_type: custom_value_object }
 ```

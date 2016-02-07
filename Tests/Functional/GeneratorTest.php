@@ -1,12 +1,12 @@
 <?php
 
-namespace Lucaszz\SymfonyFormGeneratorBundle\Tests\Functional;
+namespace Lzakrzewski\SymfonyFormGeneratorBundle\Tests\Functional;
 
-use Lucaszz\SymfonyFormGenerator\Generator;
-use Lucaszz\SymfonyFormGeneratorBundle\Tests\fixtures\CustomValueObject;
-use Lucaszz\SymfonyFormGeneratorBundle\Tests\fixtures\ObjectWithCustomValueObject;
-use Lucaszz\SymfonyFormGeneratorBundle\Tests\fixtures\ObjectWithoutMetadata;
-use Lucaszz\SymfonyFormGeneratorBundle\Tests\fixtures\ObjectWithPhpDocMetadataOnProperties;
+use Lzakrzewski\SymfonyFormGenerator\Generator;
+use Lzakrzewski\SymfonyFormGeneratorBundle\Tests\fixtures\CustomValueObject;
+use Lzakrzewski\SymfonyFormGeneratorBundle\Tests\fixtures\ObjectWithCustomValueObject;
+use Lzakrzewski\SymfonyFormGeneratorBundle\Tests\fixtures\ObjectWithoutMetadata;
+use Lzakrzewski\SymfonyFormGeneratorBundle\Tests\fixtures\ObjectWithPhpDocMetadataOnProperties;
 
 class GeneratorTest extends FunctionalTestCase
 {

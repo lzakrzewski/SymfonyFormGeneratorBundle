@@ -1,8 +1,8 @@
 <?php
 
-namespace Lucaszz\SymfonyFormGeneratorBundle;
+namespace Lzakrzewski\SymfonyFormGeneratorBundle;
 
-use Lucaszz\SymfonyFormGeneratorBundle\DependencyInjection\Compiler\FormGeneratorCompiler;
+use Lzakrzewski\SymfonyFormGeneratorBundle\DependencyInjection\Compiler\FormGeneratorCompiler;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

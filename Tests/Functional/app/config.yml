@@ -7,10 +7,10 @@ framework:
 
 symfony_form_generator:
     property_type_mappings:
-        - { property_type: Lucaszz\SymfonyFormGeneratorBundle\Tests\fixtures\CustomValueObject, form_type: custom_value_object }
+        - { property_type: Lzakrzewski\SymfonyFormGeneratorBundle\Tests\fixtures\CustomValueObject, form_type: custom_value_object }
 
 services:
     form_generator.tests.form.type.custom_value_object:
-        class: Lucaszz\SymfonyFormGeneratorBundle\Tests\Form\CustomValueObjectType
+        class: Lzakrzewski\SymfonyFormGeneratorBundle\Tests\Form\CustomValueObjectType
         tags:
             - { name: form.type, alias: custom_value_object }

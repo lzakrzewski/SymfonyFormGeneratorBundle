@@ -1,8 +1,8 @@
 <?php
 
-namespace Lucaszz\SymfonyFormGeneratorBundle\Tests\Functional\app;
+namespace Lzakrzewski\SymfonyFormGeneratorBundle\Tests\Functional\app;
 
-use Lucaszz\SymfonyFormGeneratorBundle\SymfonyFormGeneratorBundle;
+use Lzakrzewski\SymfonyFormGeneratorBundle\SymfonyFormGeneratorBundle;
 use Symfony\Bundle\FrameworkBundle\FrameworkBundle;
 use Symfony\Component\Config\Loader\LoaderInterface;
 use Symfony\Component\HttpKernel\Kernel;

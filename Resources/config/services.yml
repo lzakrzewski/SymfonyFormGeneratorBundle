@@ -1,29 +1,29 @@
 services:
     form_generator.property.names_reader:
-        class: Lucaszz\SymfonyFormGenerator\Property\PropertyNamesReader
+        class: Lzakrzewski\SymfonyFormGenerator\Property\PropertyNamesReader
 
     form_generator.extension.form_generator:
-        class: Lucaszz\SymfonyFormGenerator\Form\Extension\Core\FormGeneratorExtension
+        class: Lzakrzewski\SymfonyFormGenerator\Form\Extension\Core\FormGeneratorExtension
 
     form_generator.property_type_mapper:
-        class: Lucaszz\SymfonyFormGenerator\Property\PropertyTypeToFormTypeMapper
+        class: Lzakrzewski\SymfonyFormGenerator\Property\PropertyTypeToFormTypeMapper
         calls:
             - [applyDefaultMappings]
 
     form_generator.guesser.form_annotation:
-        class: Lucaszz\SymfonyFormGenerator\Guesser\FormAnnotationGuesser
+        class: Lzakrzewski\SymfonyFormGenerator\Guesser\FormAnnotationGuesser
         tags:
             - { name: form_generator.guesser, priority: 100 }
 
     form_generator.guesser.type_hint:
-        class: Lucaszz\SymfonyFormGenerator\Guesser\TypeHintGuesser
+        class: Lzakrzewski\SymfonyFormGenerator\Guesser\TypeHintGuesser
         arguments:
             - "@form_generator.property_type_mapper"
         tags:
             - { name: form_generator.guesser, priority: 80 }
 
     form_generator.guesser.validator:
-        class: Lucaszz\SymfonyFormGenerator\Guesser\ValidatorGuesser
+        class: Lzakrzewski\SymfonyFormGenerator\Guesser\ValidatorGuesser
         arguments:
             - "@form_generator.property_type_mapper"
             - "@form.type_guesser.validator"
@@ -31,17 +31,17 @@ services:
             - { name: form_generator.guesser, priority: 60 }
 
     form_generator.guesser.php_doc:
-        class: Lucaszz\SymfonyFormGenerator\Guesser\PHPDocGuesser
+        class: Lzakrzewski\SymfonyFormGenerator\Guesser\PHPDocGuesser
         arguments:
             - "@form_generator.property_type_mapper"
         tags:
             - { name: form_generator.guesser, priority: 70 }
 
     form_generator.guesser.chain:
-        class: Lucaszz\SymfonyFormGenerator\Guesser\ChainGuesser
+        class: Lzakrzewski\SymfonyFormGenerator\Guesser\ChainGuesser
 
     form_generator:
-        class: Lucaszz\SymfonyFormGenerator\Generator
+        class: Lzakrzewski\SymfonyFormGenerator\Generator
         arguments:
             - "@form.factory"
             - "@form_generator.property.names_reader"

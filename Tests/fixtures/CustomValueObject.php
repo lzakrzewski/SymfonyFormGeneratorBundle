@@ -1,6 +1,6 @@
 <?php
 
-namespace Lucaszz\SymfonyFormGeneratorBundle\Tests\fixtures;
+namespace Lzakrzewski\SymfonyFormGeneratorBundle\Tests\fixtures;
 
 final class CustomValueObject
 {

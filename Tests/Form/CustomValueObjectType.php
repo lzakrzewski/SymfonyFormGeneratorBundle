@@ -1,6 +1,6 @@
 <?php
 
-namespace Lucaszz\SymfonyFormGeneratorBundle\Tests\Form;
+namespace Lzakrzewski\SymfonyFormGeneratorBundle\Tests\Form;
 
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\FormBuilderInterface;
